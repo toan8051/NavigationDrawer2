@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
         DrawerLayout dl = (DrawerLayout)findViewById(R.id.drawer_layout);
 
-        drawerFragment.setUp(dl,mToolbar);
+        drawerFragment.setUp(R.id.fragment_navigation_drawer,dl,mToolbar);
 
     }
 
